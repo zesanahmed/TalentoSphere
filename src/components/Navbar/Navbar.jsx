@@ -6,6 +6,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between'>
             <h3 className='text-3xl font-bold'>TalentoSphere</h3>
             <div className='space-x-5 font-semibold'>
+                <NavLink to='/'>Home</NavLink>
                 <NavLink to='/statistics'>Statistics</NavLink>
                 <NavLink to='/jobs'>Applied Jobs</NavLink>
                 <NavLink to='/blog'>Blog</NavLink>
