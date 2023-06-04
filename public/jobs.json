@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "job_title": "Software Engineer",
+        "company_name": "TechCo Solutions",
+        "location": "San Francisco, CA",
+        "job_location": "Onsite",
+        "job_type": "Full Time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "Join our innovative team as a Software Engineer and contribute to cutting-edge projects that redefine the industry.",
+        "job_responsibility": "Design, develop, and maintain scalable software solutions, collaborate with cross-functional teams, and drive product innovation.",
+        "educational_requirement": "Bachelor's degree in Computer Science or related field.",
+        "experience": "Minimum of 3-5 years of relevant experience in software development."
+    },
+    {
+        "id": 2,
+        "job_title": "Marketing Specialist",
+        "company_name": "GrowthCo Marketing",
+        "location": "New York, NY",
+        "job_location": "Onsite",
+        "job_type": "Full Time",
+        "salary": "$70,000 - $90,000",
+        "job_description": "Seeking a creative and results-driven Marketing Specialist to develop and execute marketing strategies that fuel business growth.",
+        "job_responsibility": "Plan and implement digital marketing campaigns, conduct market research, analyze data, and optimize marketing efforts.",
+        "educational_requirement": "Bachelor's degree in Marketing, Business Administration, or a related field.",
+        "experience": "2-4 years of experience in marketing, preferably with a focus on digital marketing."
+    },
+    {
+        "id": 3,
+        "job_title": "Financial Analyst",
+        "company_name": "Investment Partners",
+        "location": "Chicago, IL",
+        "job_location": "Remote",
+        "job_type": "Full Time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "Join our dynamic team as a Financial Analyst and contribute to critical financial analysis and strategic decision-making processes.",
+        "job_responsibility": "Analyze financial data, prepare reports, forecast trends, and provide recommendations to optimize financial performance.",
+        "educational_requirement": "Bachelor's degree in Finance, Accounting, or a related field.",
+        "experience": "3-5 years of experience in financial analysis, investment banking, or a similar role."
+    },
+    {
+        "id": 4,
+        "job_title": "Graphic Designer",
+        "company_name": "Creative Design Studio",
+        "location": "Los Angeles, CA",
+        "job_location": "Onsite",
+        "job_type": "Part Time",
+        "salary": "$50,000 - $70,000",
+        "job_description": "Seeking a talented Graphic Designer to bring creative concepts to life and deliver visually stunning designs across various platforms.",
+        "job_responsibility": "Create captivating designs, collaborate with clients and team members, and stay updated on design trends and tools.",
+        "educational_requirement": "Bachelor's degree in Graphic Design, Fine Arts, or a related field.",
+        "experience": "2-4 years of professional experience in graphic design or a similar role."
+    },
+    {
+        "id": 5,
+        "job_title": "HR Manager",
+        "company_name": "Talent Solutions Inc.",
+        "location": "Houston, TX",
+        "job_location": "Remote",
+        "job_type": "Full Time",
+        "salary": "$90,000 - $110,000",
+        "job_description": "We are seeking an experienced HR Manager to lead and oversee our human resources operations, policies, and practices.",
+        "job_responsibility": "Manage employee relations, recruitment, training and development, performance management, and ensure compliance with employment laws.",
+        "educational_requirement": "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+        "experience": "5-7 years of experience in human resources management or a similar role."
+    },
+    {
+        "id": 6,
+        "job_title": "Sales Executive",
+        "company_name": "Global Sales Agency",
+        "location": "Miami, FL",
+        "job_location": "Onsite",
+        "job_type": "Full Time",
+        "salary": "$60,000 - $80,000",
+        "job_description": "Join our high-performing sales team as a Sales Executive and drive revenue growth by acquiring new clients and nurturing existing relationships.",
+        "job_responsibility": "Identify prospects, present product offerings, negotiate contracts, and achieve sales targets through effective communication and relationship-building.",
+        "educational_requirement": "Bachelor's degree in Business, Marketing, or a related field.",
+        "experience": "3-5 years of experience in sales, preferably in a B2B environment."
+    }
+]

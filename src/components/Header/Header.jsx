@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='flex mt-16'>
-            <div className='pr-80 text-start'>
+            <div className='pr-60 text-start'>
                 <h1 className='text-4xl font-bold mb-2'>CareerQuest:</h1>
                 <h1 className='text-5xl font-bold mb-6 animate-text bg-gradient-to-r from-cyan-400 via-purple-500 to-purple-600  bg-clip-text text-transparent'> Your Path to Success</h1>
                 <p className='text-gray-500 mb-4'>Navigate your way to success with CareerQuest, where employers and job seekers converge to forge meaningful connections and foster professional advancement.</p>
