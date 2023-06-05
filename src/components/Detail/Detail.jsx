@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Statistics = () => {
-
+const Detail = () => {
     return (
         <div>
-
+            detail
         </div>
     );
 };
 
-export default Statistics;
+export default Detail;

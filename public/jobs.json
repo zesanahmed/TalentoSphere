@@ -1,6 +1,7 @@
 [
     {
-        "id": 1,
+        "id": 0,
+        "img": "https://img.freepik.com/free-vector/creative-gradient-laptop-logo-template_23-2149010269.jpg?w=740&t=st=1685880745~exp=1685881345~hmac=cdf93a2ab96a8188ab817f93b2a798c9614a7674c4e5c81fab385c0a2e4020e1",
         "job_title": "Software Engineer",
         "company_name": "TechCo Solutions",
         "location": "San Francisco, CA",
@@ -13,7 +14,8 @@
         "experience": "Minimum of 3-5 years of relevant experience in software development."
     },
     {
-        "id": 2,
+        "id": 1,
+        "img": "https://img.freepik.com/free-vector/search-engine-logo_1071-76.jpg?w=740&t=st=1685881177~exp=1685881777~hmac=43f5c9d44a4451518ff088c72d8a420c69ff407fe56444a9bded85d022f541fd",
         "job_title": "Marketing Specialist",
         "company_name": "GrowthCo Marketing",
         "location": "New York, NY",
@@ -26,7 +28,8 @@
         "experience": "2-4 years of experience in marketing, preferably with a focus on digital marketing."
     },
     {
-        "id": 3,
+        "id": 2,
+        "img": "https://img.freepik.com/free-vector/gradient-accounting-logo-template_23-2148867917.jpg?w=740&t=st=1685881879~exp=1685882479~hmac=f7dbc41a46d6eb20c527c4d1c750360f3a464d05e04a00a3c2752a3fbb91b15b",
         "job_title": "Financial Analyst",
         "company_name": "Investment Partners",
         "location": "Chicago, IL",
@@ -39,7 +42,8 @@
         "experience": "3-5 years of experience in financial analysis, investment banking, or a similar role."
     },
     {
-        "id": 4,
+        "id": 3,
+        "img": "https://img.freepik.com/free-vector/gradient-quill-pen-logo-with-tagline-template_23-2149813051.jpg?w=740&t=st=1685882118~exp=1685882718~hmac=29a58590e0196be87901a48c87db9920a3e023041ca5d2a81f4737723aee1076",
         "job_title": "Graphic Designer",
         "company_name": "Creative Design Studio",
         "location": "Los Angeles, CA",
@@ -52,7 +56,8 @@
         "experience": "2-4 years of professional experience in graphic design or a similar role."
     },
     {
-        "id": 5,
+        "id": 4,
+        "img": "https://img.freepik.com/free-vector/branding-identity-corporate-abstract-logo-vector-design-template_460848-13937.jpg?w=740&t=st=1685882203~exp=1685882803~hmac=9d95f112c1d3c4a0a6981aa7680e2ce9bdfedcb9d21e2d3b42bc58ded058de0a",
         "job_title": "HR Manager",
         "company_name": "Talent Solutions Inc.",
         "location": "Houston, TX",
@@ -65,7 +70,8 @@
         "experience": "5-7 years of experience in human resources management or a similar role."
     },
     {
-        "id": 6,
+        "id": 5,
+        "img": "https://img.freepik.com/free-vector/big-sales-label-design_1232-4616.jpg?t=st=1685882304~exp=1685882904~hmac=e6bcec702c780dc35fad221e526740080681e83e7a20ff5f449ad4d9a53a2e6e",
         "job_title": "Sales Executive",
         "company_name": "Global Sales Agency",
         "location": "Miami, FL",

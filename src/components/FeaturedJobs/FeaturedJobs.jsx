@@ -4,7 +4,6 @@ import Card from '../Card/Card';
 
 const FeaturedJobs = () => {
     const jobs = useContext(JobsContext);
-    console.log(jobs)
     return (
         <div className='mt-20'>
             <h3 className='text-3xl font-bold mb-2'>Featured jobs</h3>
