@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import Detail from '../Detail/Detail';
+import { addToDb } from '../../utilities/fakeDb';
 
 const JobDetails = () => {
 
@@ -8,10 +8,15 @@ const JobDetails = () => {
     const id = parseInt(jobId)
     const jobs = useLoaderData();
     const found = jobs.find(job => job.id === id);
+
+    const handleAddTojob = (id) => {
+        addToDb(id)
+        console.log(id)
+    }
     return (
         <div>
             <div className='relative mt-6'>
-                <img className='w-full h-32' src="https://img.freepik.com/free-photo/abstract-smooth-dark-blue-with-black-vignette-studio-well-use-as-backgroundbusiness-reportdigitalweb_1258-107758.jpg?w=1060&t=st=1685975324~exp=1685975924~hmac=ba3409b7b9117960e63c37c0cc365630507c96b7f49b74a35f1a96402ce7a1f1" alt="" />
+                <img className='w-full h-32' src="https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=900&t=st=1686247577~exp=1686248177~hmac=e09aa3fb978038303f1ac9ad5eeb23aad72e560de83fb0ef03f7e944ec7a361f" alt="" />
                 <h2 className='absolute top-12 left-2/4 text-2xl font-bold'>Job Details</h2>
             </div>
             <div className='flex mt-20 gap-14 mx-28 '>
@@ -39,7 +44,7 @@ const JobDetails = () => {
                             <p className='mt-3 '><span className='font-bold'>Address : </span> <span className='text-gray-500'>{found.location}</span></p>
                         </div>
                     </div>
-                    <button className='w-full font-medium text-white shadow-md  px-4 py-2 md:px-4 text-lg rounded-md hover:bg-violet-700 bg-violet-500'>Apply Now</button>
+                    <button onClick={() => handleAddTojob(id)} className='w-full font-medium text-white shadow-md  px-4 py-2 md:px-4 text-lg rounded-md hover:bg-violet-700 bg-violet-500'>Apply Now</button>
                 </div>
             </div>
         </div>

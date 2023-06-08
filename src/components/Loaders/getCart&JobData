@@ -1,0 +1,18 @@
+import { getAppliedJob } from "../../utilities/fakeDb";
+
+
+export const jobAndCartData = async () => {
+    const jobsData = await fetch('jobs.json');
+    const jobs = await jobsData.json();
+    const appliedJob = getAppliedJob();
+    let jobArray = [];
+    for (const id in appliedJob) {
+        const idNo = parseInt(id);
+        const foundJob = jobs.find(job => job.id === idNo);
+        if (foundJob) {
+            jobArray.push(foundJob)
+        }
+    }
+    return jobArray
+}
+

@@ -12,6 +12,7 @@ import Blog from './components/Blog/Blog.jsx';
 import AppliedJobs from './components/Applied-Jobs/AppliedJobs.jsx';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs.jsx';
 import JobDetails from './components/JobDetails/JobDetails.jsx';
+import { jobAndCartData } from './components/Loaders/getCart&JobData';
 
 const router = createBrowserRouter([
   {
@@ -34,11 +35,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: <Statistics />
+        element: <Statistics />,
       },
       {
         path: '/jobs',
-        element: <AppliedJobs />
+        element: <AppliedJobs />,
+        loader: jobAndCartData
       },
       {
         path: '/blog',
